@@ -43,3 +43,35 @@ if len(a) < 0:
 else:
     print("the list is empty")
 
+print(bin(1))
+# f string test
+
+name = "yuval"
+a= "king"
+
+print(f' hello, {name}  {a}')
+
+# practice input
+
+name = input("write it please")
+age = input("write it please")
+print (f' answer :{name} {age}' )
+print (f" answer :{name} {age}" )
+# int practice and floot
+
+number_1 = int(input("write number1 please"))
+number_2 = int(input("write number2 please"))
+print(f' so.... {number_1} + {number_2} is {number_1 + number_2}')
+
+number_1 = float(input("write number1 please"))
+number_2 = float(input("write number2 please"))
+print(f' so.... {number_1} + {number_2} is {number_1 + number_2}')
+
+# split
+age1, age2 = input("enter your score: ").split()
+
+print(age1, age2)
+
+score_1, score_2 ,score_3 = map(int, input("enter 3 scores: ").split())
+
+print(score_1, score_2 ,score_3)
