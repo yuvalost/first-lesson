@@ -74,6 +74,7 @@ Score_1 = float(score_1)
 Score_2 = float(score_2)
 
 
+
 print(score_1 , score_2)
 
 age1 , age2 = input("enter your 2 age numbers: ").split()
