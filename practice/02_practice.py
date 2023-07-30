@@ -68,9 +68,17 @@ number_2 = float(input("write number2 please"))
 print(f' so.... {number_1} + {number_2} is {number_1 + number_2}')
 
 # split
-age1, age2 = input("enter your score: ").split()
+score_1 , score_2 = input("enter your score: ").split()
 
-print(age1, age2)
+Score_1 = float(score_1)
+Score_2 = float(score_2)
+
+
+print(score_1 , score_2)
+
+age1 , age2 = input("enter your 2 age numbers: ").split()
+
+print(age1 , age2)
 
 score_1, score_2 ,score_3 = map(int, input("enter 3 scores: ").split())
 
