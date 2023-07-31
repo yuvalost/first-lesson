@@ -1,11 +1,11 @@
-# first loop to deposit and check if the number is legit
 # Import the 'random' module to generate random numbers
 import random
 
 # Constants for the game
 MAX_LINES = 3  # Maximum number of lines a player can bet on
 MAX_BET = 100  # Maximum bet amount
-MIN_BET = 1  # Minimum bet amount
+MIN_BET = 1    # Minimum bet amount
+LOSS_MULTIPLIER = 0.5  # Multiplier for the bet amount when there are no matching symbols
 
 ROWS = 3  # Number of rows on the slot machine display
 COLS = 3  # Number of columns on the slot machine display
@@ -99,18 +99,23 @@ def get_bet():
     return amount
 
 
-# Function to calculate the winnings for a spin based on the slot machine result
+# Function to calculate the winnings or losses for a spin based on the slot machine result
 def calculate_spin_result(columns, bet_per_line):
-    winnings = 0
+    symbol_set_list = [set(column) for column in columns]
+    all_symbols = set.union(*symbol_set_list)
+    num_unique_symbols = len(all_symbols)
+
+    # Check if any row contains all the same symbols
     for row in range(len(columns[0])):
-        # Check if all symbols in a row are the same
-        symbol_set = set(column[row] for column in columns)
+        symbol_set = symbol_set_list[row]
         if len(symbol_set) == 1:
             symbol = columns[0][row]
             if symbol in symbol_count:
                 # Add the winnings based on the symbol and bet_per_line
-                winnings += symbol_count[symbol] * bet_per_line
-    return winnings
+                return symbol_count[symbol] * bet_per_line
+
+    # No matching symbols in any row, return the loss amount
+    return -int(LOSS_MULTIPLIER * bet_per_line * num_unique_symbols)
 
 
 # Main game function
@@ -139,15 +144,16 @@ def main():
         slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
         print_slot_machine(slots)
 
-        # Calculate the winnings for the current spin
-        winnings = calculate_spin_result(slots, bet)
-        total_winnings += winnings
-        balance += winnings
-
-        if winnings > 0:
-            print(f"Congratulations! You won ${winnings}.")
+        # Calculate the winnings or losses for the current spin
+        result = calculate_spin_result(slots, bet)
+        if result > 0:
+            print(f"Congratulations! You won ${result}.")
         else:
-            print(f"Better luck next time. You lost ${abs(winnings)}.")
+            print(f"Better luck next time. You lost ${abs(result)}.")
+
+        # Update the player's balance
+        balance += result
+        total_winnings += result
 
         print(f"Your total winnings/losses so far: ${total_winnings}")
         print(f"Your current balance: ${balance}")
@@ -159,4 +165,3 @@ def main():
 
 # Start the game
 main()
-
