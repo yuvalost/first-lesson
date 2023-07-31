@@ -1,5 +1,5 @@
-Name_1 = "yuval"
-_Last_name_01 = 'ost'
+Name_1 = "Alex"
+_Last_name_01 = 'Komanov'
 # 1age = 23
 
 age = 35
@@ -8,8 +8,8 @@ Age = 50
 print(age)
 print(Age)
 
-my_name = "yuval"
-my_full_name = "yuval ost"
+my_name = "Alex"
+my_full_name = "Alex Komanov"
 
 # b1 b2 b3 - not recommended for usage
 

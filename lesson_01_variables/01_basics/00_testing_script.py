@@ -2,7 +2,7 @@ a = 10  # it is a variable with a name 'a'
 print(a)
 print(type(a))
 
-a = "yuval"
+a = "Alex"
 print(a)
 print(type(a))
 
@@ -14,18 +14,18 @@ print(type(a))
 # 1. 10 ->  2. a  -> 3. a = 10
 
 
-# a = "yuval"                 a  ->  243543feda
-# 1. "yuval"  ->  2. a ->  3. a = "yuval"
+# a = "Alex"                 a  ->  243543feda
+# 1. "Alex"  ->  2. a ->  3. a = "Alex"
 
 
-my_list = [1, "yuval", 2, "bla bla"]
+my_list = [1, "alex", 2, "bla bla"]
 print(my_list)
 print(type(my_list))
 
-print(type("yuval"))
+print(type("Alex"))
 
 my_name = '''
-print("yuval ost")
+print("Alexander Komanov")
 print(35)
 '''   # It is NOT a comment! It is a string
 
