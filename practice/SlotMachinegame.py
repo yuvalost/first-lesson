@@ -45,10 +45,24 @@ def get_slot_machine_spin(rows, cols, symbols):
 
 # Function to print the slot machine display
 def print_slot_machine(columns):
+    symbol_width = 8  # Width of the slot machine symbol cell
+
+    # Print the top border
+    print("+" + "-" * (symbol_width * COLS + COLS - 1) + "+")
+
+    # Print the content of each row
     for row in range(len(columns[0])):
         for i, column in enumerate(columns):
-            print(column[row], end=" | ")
-        print()
+            symbol = column[row]
+            print(f"| {symbol:{symbol_width}}", end="")
+        print("|")
+
+        # Print the row separator
+        if row < len(columns[0]) - 1:
+            print("+" + "-" * (symbol_width * COLS + COLS - 1) + "+")
+
+    # Print the bottom border
+    print("+" + "-" * (symbol_width * COLS + COLS - 1) + "+")
 
 
 # Function to get the initial deposit amount from the player
@@ -155,7 +169,6 @@ def main():
         balance += result
         total_winnings += result
 
-        print(f"Your total winnings/losses so far: ${total_winnings}")
         print(f"Your current balance: ${balance}")
 
     print("Game over. You have no more money to bet.")
