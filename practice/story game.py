@@ -37,7 +37,7 @@ def shoot_outcome():
           f"but cant believe you're still alive"
           f"{player_name}: how is this possible, and where is everyone?!\n")
     print("what to do you ask")
-    print("1. look around the town of Holly-Holly-Holly-Holly.")
+    print(f"1. look around the town of {town_name}.")
     print("2. run away.")
 
     decision = input("Enter the number of your decision: ")
