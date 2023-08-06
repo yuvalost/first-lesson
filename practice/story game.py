@@ -3,13 +3,13 @@ player_name=input("before we start....whats your name?   ")
 town_name = input(" what does arik want the name of the town to be? ")
 
 def intro():
-    print(f"You are the sheriff In the quaint town of {town_name}, ")
-    print("where the air was always filled with the sweet cent of babies, ")
-    print(f'and the streets were lined with charming cows, the town was protected by (you) Sheriff {player_name} ')
-    print("one day... A notorious gang led by Billy the Bitch has show up looking for some gay orgy")
-    print("....oh shit i mean trouble...in the good way!")
-    print("his gang started to touch the towns man...i mean people!! you decided as the sheriff to stop this crazy shit ")
-    print("you say: stop this crazy shit you Meanies!! this is my town and i dont like this un-holly touches!  ")
+    print(f"You are the sheriff In the quaint town of {town_name}, \n")
+    print("where the air was always filled with the sweet cent of babies, \n")
+    print(f'and the streets were lined with charming cows, the town was protected by (you) Sheriff {player_name} \n')
+    print("one day... A notorious gang led by Billy the Bitch has show up looking for some gay orgy\n")
+    print("....oh shit i mean trouble...in the good way!\n")
+    print("his gang started to touch the towns man...i mean people!! you decided as the sheriff to stop this crazy shit \n")
+    print("you say: stop this crazy shit you Meanies!! this is my town and i dont like this un-holly touches!  \n")
     print("You need to decide how to confront the gang and restore peace to the town.\n")
 
 
