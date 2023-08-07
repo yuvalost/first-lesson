@@ -1,35 +1,36 @@
 import time
-player_name=input("before we start....whats your name?   ")
-town_name = input(" what does arik want the name of the town to be? ")
+you=input("before we start....whats your name?   ")
+town_name = input(" give the town you're from a name? ")
 
 def intro():
     print(f"You are the sheriff In the quaint town of {town_name}, \n")
     print("where the air was always filled with the sweet cent of babies, \n")
-    print(f'and the streets were lined with charming cows, the town was protected by (you) Sheriff {player_name} \n')
-    print("one day... A notorious gang led by Billy the Bitch has show up looking for some gay orgy\n")
+    print(f'and the streets were lined with charming cows, the town was protected by (you) the Sheriff {you} '
+          f'protector of the town {town_name}\n')
+    print("one day... A notorious gang led by Billy the Bitch has show up looking for some gay orgy")
     print("....oh shit i mean trouble...in the good way!\n")
     print("his gang started to touch the towns man...i mean people!! you decided as the sheriff to stop this crazy shit \n")
-    print("you say: stop this crazy shit you Meanies!! this is my town and i dont like this un-holly touches!  \n")
+    print(f"{you} say: stop this crazy shit you Meanies!! this is my town and i dont like this un-holly touches!  \n")
     print("You need to decide how to confront the gang and restore peace to the town.\n")
 
 
 def encounter_gang():
-    print("You encounter Billy the Bitch and his gang in the town center.")
-    print("They are armed to the teeth and appear ready for violence.")
+    print("You encounter Billy the Bitch and his gang in the town center\n.")
+    print("They are armed to the teeth and appear ready for violence.\n")
     print("They are armed to the teeth and appear ready for violence.\n")
 
 
 def shoot_outcome():
-    print("You decide Confront by draw your gun and open fire on Billy the Bitch and his gang.")
-    print("one gang member got hit and the rest run away also billy (because that bitch always gets away with it.")
-    print("Billy the bitch yelled: why you shoot me?.")
+    print("You decide Confront by draw your gun and open fire on Billy the Bitch and his gang.\n")
+    print("one gang member got hit and the rest run away also billy (because that bitch always gets away with it.\n")
+    print("Billy the bitch yelled: why you shoot me?.\n")
     print(f'{player_name}: beacuse i aint no bitch like you.....')
-    print("rest of the town: owww shiittt.... that's a burn")
-    print("Billy the bitch: ok ok thats nice but now it's personal! ")
-    print("Billy the bitch took out his gun and started shooting at you, you fire back, the whole town runs for cover ")
-    print("A chaotic shootout ensues. You manage to take down a few gang members.")
-    print(f"However, their gunfire is accurate, and you get severely wounded. "
-          f"{player_name} fall's to the ground and look at the sky saying: omg omg omg this is it and just die."
+    print("rest of the town: owww shiittt.... that's a burn \n")
+    print("Billy the bitch: ok ok thats nice but now it's personal! \n")
+    print("Billy the bitch took out his gun and started shooting at you, you fire back, the whole town runs for cover \n")
+    print("A chaotic shootout ensues. You manage to take down a few gang members.\n")
+    print(f"However, their gunfire is accurate, and you get severely wounded. \n"
+          f"{player_name} fall's to the ground and look at the sky saying: omg omg omg this is it and just die.\n"
           f"Billy the bitch and the rest of the gang just laugh and continue doing....i guess gay shit \n")
 
     print(f"{player_name} wake up from the dead...shocked that youre still alive,"
@@ -38,7 +39,7 @@ def shoot_outcome():
           f"{player_name}: how is this possible, and where is everyone?!\n")
     print("what to do you ask")
     print(f"1. look around the town of {town_name}.")
-    print("2. run away.")
+    print("2. run away to find a answers else where")
 
     decision = input("Enter the number of your decision: ")
 
@@ -58,10 +59,32 @@ def shoot_outcome():
 
 
 def negotiate_outcome():
-    print("You decide to attempt a risky negotiation with Billy the Bitch and his gang. "
+    print("You decide to attempt a risky negotiation with Billy the Bitch and his gang....\n"
           "Surprisingly, they agree to listen, and you join the gang in one epic gay gang bang this town has ever seen"
-          "(except Molly she seen some shit) after you finish... billy ask you to join his gang and fight as an "
+          "(except Molly she seen some shit) \n after you finish... billy ask you to join his gang and fight as an "
           "outlaw! you think about it and say it's what i have been chosen for.\n")
+    print("what do you want to know? ")
+    print("1. become an outlaw a bit gay...but why stop now... ")
+    print("1+1. decide to fight billy to be good!")
+
+    decision = input("Enter the number of your decision: ")
+
+    if decision == "1":
+        print(f'{you} tell them: im in!\n we can be the best gang but there is one problem... and thats you Billy!\n we dont need you bitch\n'
+              f' you take your gun out and shoot billy the bitch\n all the gang members are shocked from your actions\n'
+              f' {you} looks at the rest of the gang ...\n and say:'
+              f' now its {you} the bitch and gang\n but as you finish talking a one of you members start acting strange'
+              f' his eyes turn white and his body turn into a half bear half human\n ')
+    elif decision == "2":
+        print(f'you take your gun out and shoot billy the bitch\n all the gang members are shocked from your actions\n'
+              f' {you} looks at the rest of the gang ...\n and say:'
+              f' now its {you} the bitch and gang\n but as you finish talking a one of you members start acting strange'
+              f' his eyes turn white and his body turn into a half bear half human \n ')
+    else:
+        print("Invalid choice!")
+    part2_neg()
+def part2_neg():
+    print(f"and says: finally im free, billy put a stupid spell on me, no more leaders im going on a killing sp\n ')")
 
 
 def wrong_decision_outcome():
