@@ -70,7 +70,8 @@ def negotiate_outcome():
     decision = input("Enter the number of your decision: ")
 
     if decision == "1":
-        print(f'{you} tell them: im in!\n we can be the best gang but there is one problem... and thats you Billy!\n we dont need you bitch\n'
+        print(f'{you} tell them: im in!\n we can be the best gang but there is one problem... and thats you Billy!\n '
+              f'we dont need you bitch\n'
               f' you take your gun out and shoot billy the bitch\n all the gang members are shocked from your actions\n'
               f' {you} looks at the rest of the gang ...\n and say:'
               f' now its {you} the bitch and gang\n but as you finish talking a one of you members start acting strange'
@@ -84,7 +85,28 @@ def negotiate_outcome():
         print("Invalid choice!")
     part2_neg()
 def part2_neg():
-    print(f"and says: finally im free, billy put a stupid spell on me, no more leaders im going on a killing sp\n ')")
+    print(f"and says: finally im free, billy put a stupid spell on me, no more leaders im going on a killing everyone\n"
+          f"meow!!!. "
+          f"\n you look up and but you only have one bullet, the sky becomes red.\n the rest of the gang looking hopless "
+          f"as the half-man-half-bear meows at you  ')")
+    print(f"the mix of man-bear says: i will let you survive but you most eat one person out of your gang!\n"
+          f"you look around and... ")
+    print(f"1. eat a gang member")
+    print(f"2-1. face the beast")
+
+    decision = input("Enter the number of your decision: ")
+
+    if decision == "1":
+        print(f"you line-up the gang as they start crying for their life...")
+        print(f"{you} says: ok since i only know you from the orgy state your name and why i shouldnt eat you\n"
+              f"gang member 1: Yo, gather 'round, let me tell you a tale,\n "
+              f"my name is John the Fun, a name known to all, Gangster with style, never took a fall,\n"
+              f" From the hood to the club, he'd always bring the heat,\n"
+              f" In the world of chaos, he found his own beat.  ")
+        print(f"{you} and the beast look at each other (you have this moment of memory of the orgy)\n")
+        print(f"gang member 2: my name is Bob, you should know.\n With a hat and boots, he'd ride the range, But his heart took a turn, quite a change.")
+
+
 
 
 def wrong_decision_outcome():
