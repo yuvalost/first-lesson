@@ -641,9 +641,11 @@ def new_town():
     print(f"1. help the beautiful woman")
     print(f"2. leave this town")
 
-    decision = input("Enter your decision: ")
+    decision = input("Enter your decision: \n")
     if decision == "1":
         print(f"")
+    elif decision == "2":
+        print("")
 
 
 
