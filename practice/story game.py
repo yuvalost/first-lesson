@@ -380,7 +380,8 @@ def alien():
     print("both girls say: We have learned much from you, As a token of gratitude, we shall return you to your home.")
     print("With another flash of light, you find yourself back in the desert, the aliens gone.")
     print("The memory of your abduction remains vivid, a testament to the uncharted frontiers of the cosmos.\n")
-    abandoned_house()
+    third_town_coward()
+
 
 
 
@@ -471,12 +472,54 @@ def shootout_aim():
             else:
                 print("thanks for playing")
 
+def tv_show():
+    print(f"You wake up in a strange world, disoriented and confused.")
+    print(f"Everything around you looks surreal, like you've stepped into a different reality.")
+    print(f"A voice echoes in your head: 'Welcome to The {you} Show.'\n")
 
+    print(f"Before you stands a picture-perfect suburban neighborhood called Tranquility Lane.")
+    print(f"The houses are pristine, the lawns are immaculate, and the sky is an eternal blue.")
+    print(f"A young girl named Betty approaches you, smiling innocently.")
+    print(f"She explains that you are the star of this show, and she's your guide.\n")
 
+    print(
+        f"Betty gives you a series of tasks to complete. They start innocently enough: making a child cry, stealing a candy bar.")
+    print(f"But as time passes, the tasks become increasingly sinister and violent.")
+    print(f"You find yourself forced to hurt others in disturbing ways.")
+    print(f"Betty's cheerful demeanor contrasts sharply with the darkness of the tasks she assigns.\n")
 
+    print(f"You start to question the reality of this world. It's like a twisted dream, a nightmare you can't escape.")
+    print(f"The people around you are trapped, their lives dictated by your actions.")
+    print(
+        f"You feel a growing sense of guilt and horror as you carry out the tasks, longing to wake up from this twisted nightmare.\n")
 
+    print(f"One day, as the sun sets on Tranquility Lane, you have a choice:")
+    print(f"1. Continue to follow Betty's tasks, perpetuating the cycle of violence.")
+    print(f"2. Look for an alternative solution, something that could break the simulation and free everyone.\n")
 
+    decision = input("Enter your decision: ")
 
+    if decision == "1":
+        print(f"You continue to follow Betty's orders, each task chipping away at your sanity.")
+        print(f"The darkness in your heart grows, and the neighborhood's perfect facade becomes more disturbing.")
+        print(f"Eventually, Betty reveals her true nature – an embodiment of chaos and cruelty.")
+        print(
+            f"You are trapped forever in this nightmarish show, condemned to commit unspeakable acts for her amusement.\n")
+    elif decision == "2":
+        print(f"You decide to find a way to break free from this twisted simulation.")
+        print(f"You start to investigate the neighborhood, uncovering hidden clues and secrets.")
+        print(f"You discover a failsafe option – an override that can release everyone from this nightmare.")
+        print(f"With determination, you activate the failsafe, bringing an end to the torment.")
+        print(
+            f"Betty's illusion shatters, revealing the truth – you and the others were trapped by Dr. Stanislaus Braun.\n")
+
+    print(f"The simulation collapses, and you wake up in a room that's a stark contrast to the suburban illusion.")
+    print(f"You are reunited with your father, James, who had been trapped in dog form by Braun's sadistic experiment.")
+    print(
+        f"As you leave the room, you can't help but wonder if the events you experienced were real or just part of a twisted show.")
+    print(f"The lingering doubt leaves you haunted, forever questioning the nature of reality.")
+    print(f"you go outside and a cowboy named Blaze is waiting for a shootout.")
+    shootout()
 
 
 def abandoned_house():
@@ -797,7 +840,7 @@ def new_town():
                 decision = input("Enter your decision: \n")
 
                 if decision == "1":
-                    print(f"{you} join's the gang bang....(wtf), Emily shocked but understand.\n as you finish and put your clothes bcak on,\n"
+                    print(f"{you} join's the gang bang....(wtf), Emily shocked but understand.\n as you finish and put your clothes back on,\n"
                       f" Emily shares a look with you and says: i'm not sure you needed to join but.... we survived. lets go back to my place and get cleaned up.\n ")
                     print(f"{you} get cleaned up, you tell Emily you need to leave. Emily asked to join you ")
                     print(f"{you} you think about it....")
@@ -818,13 +861,25 @@ def new_town():
                 elif decision == "2":
                     print(f"you look at Emily and say: lets fight!!\n as Emily does all the shooting for you but you sho")
                     print(f"With the bandits defeated, Emily expresses her heartfelt gratitude and invites you to stay in {town_name}.")
+                    print(f"after you had sex with Emily a werid sound comes from the kitchen, you explore and see a green figure you get closer....")
+                    alien()
+                else:
+                    print(
+                        f"after you had sex with Emily a werid sound comes from the kitchen, you explore and see a green figure you get closer....")
+                    alien()
+            elif decision == "2":
+                print("Feeling uncertain about the situation, you decide to leave the town and continue your journey elsewhere.")
+                print(f"As you ride away, you can't shake the feeling that there's more to the story of {town_name}.")
+                print("Months pass, and your journey takes you to distant lands and new adventures.")
+                print(f"Yet, the memory of {town_name} lingers in your mind, reminding you of untold tales.")
+                print(f"Sometimes, the wind carries whispers of {town_name} but you move on.")
+                third_town()
+            elif decision == "3":
+                    print(f"{you} says: Emily thanks for the good times but i dont like you like that.... ")
+                    back_to_town()
         elif decision == "2":
-            print("Feeling uncertain about the situation, you decide to leave the town and continue your journey elsewhere.")
-            print(f"As you ride away, you can't shake the feeling that there's more to the story of {town_name}.")
-            print("Months pass, and your journey takes you to distant lands and new adventures.")
-            print(f"Yet, the memory of {town_name} lingers in your mind, reminding you of untold tales.")
-            print(f"Sometimes, the wind carries whispers of {town_name} but you move on.")
-            third_town()
+            print(f"{you} says: Emily thanks for the good times but i dont like you like that.... ")
+            back_to_town()
         else:
             print("Invalid choice. Please enter '1' to help the woman or '2' to leave the town.")
             new_town()
@@ -832,23 +887,20 @@ def new_town():
 
 
 def play_game():
+    print("ds")
 
 
-
-
-        def back_to_town():
-
+def back_to_town():
             print(f"The town seemed quiet and eerie. The buildings were old, and shadows danced in the moonlight.")
             print(f"You tied your horse and entered the town's saloon. The bartender eyed you with suspicion.")
             print(f"Strangely, there was no other soul in sight.\n")
-
             print(f"You ordered a drink and struck up a conversation with the bartender.")
             print(f"He spoke in hushed tones, warning you to leave before nightfall.")
             print(f"He mentioned rumors of creatures that roamed the town after dark – creatures that thirsted for blood.\n")
-            print(f"1. stay ")
-            print(f"2. leave town \n")
+            print(f"1. Stay in {town_name}")
+            print(f"2. Leave {town_name}\n")
 
-            decision = input("Enter your decision: \n")
+            decision = input("Enter your decision: ")
 
             if decision == "1":
                 print(f"Curiosity piqued, you decided to stay and investigate. As night fell, the air grew colder.")
@@ -859,61 +911,212 @@ def play_game():
                 print(f"You drew your revolver, heart pounding, ready to defend yourself against the supernatural threat.")
                 print(f"The vampires hissed, circling you, but before they could attack, a powerful figure appeared.\n")
 
-                print(f"The leader of the vampires, a regal and ancient creature, stepped forward. He introduced himself as Lord Howie.")
+                print(
+                f"The leader of the vampires, a regal and ancient creature, stepped forward. He introduced himself as Lord Howie.")
                 print(
                 f"He explained that {town_name} was their domain, and they had been here for centuries, hidden from the world.")
-                print(f"Lord Howie offered you a choice – join their immortal ranks by Sucking Emily's blood or face their wrath.\n")
+                print(
+                f"Lord Howie offered you a choice – join their immortal ranks by Sucking Emily's blood or face their wrath.\n")
 
                 print(f"You weighed your options, torn between the allure of immortality and your humanity.")
-                print(f"The decision was yours: \n")
+                print(f"The decision was yours:")
                 print(f"1. Accept Lord Howie's offer and become a vampire.")
                 print(f"2. Reject their offer and challenge the vampires to a battle for the town.\n")
+
                 decision = input("Enter your decision: ")
 
                 if decision == "1":
-                    print(f"You chose to accept Lord Howie's offer. you walk back to Emily's house while shes asleep and start sucking her blood")
+                    print(
+                    f"You chose to accept Lord Howie's offer. You walk back to Emily's house while she's asleep and start sucking her blood.")
                     print(f"The transformation was painful, but you embraced your new immortal life.")
                     print(f"Over the centuries, you and the vampires ruled over {town_name}, shaping its history and destiny.")
                     print(f"But with immortality came the weight of eternal darkness, forever removed from the sun's warmth.\n")
-                    tv_show()
+                    vampire()
+
 
                 elif decision == "2":
-                    print(f"You rejected the offer, determined to protect the town and its people from the vampire threat.")
-                    print(f"A fierce battle ensued. With your skills but you miss every shot, you fought valiantly against the vampires.")
-                    print(f"Though outnumbered, your determination prevailed, and you managed to be surrounded by them. "
-                      f"{you} asked to tell a story before you die")
+
+                    print(
+                        "You rejected the offer, determined to protect the town and its people from the vampire threat.")
+
+                    print("A fierce battle ensued. With your skills, you fought valiantly against the vampires.")
+
+                    print("Though outnumbered, your determination prevailed, and you managed to be surrounded by them.")
+
+                    print(f"{you} asked to tell a story before you die.")
+
                     print("Howie accepts your request, but if you don't add 'unicorn' to the story, then you die...")
+
                     print("Howie accepts your request, but if it's not good, then you die...")
 
-                while True:
-                    story = input("Start writing your story here -> ")
-                    if 'unicorn' in story.lower():
-                        print("OK, you may leave this town.")
+                    while True:
 
-                        break
-                        third_town()
-                    else:
-                        print("Where is the unicorn? Start again.")
+                        story = input("Start writing your story here -> ")
 
-                    print(f"The townspeople emerged from hiding, grateful for their salvation. They spoke of legends, warning of the town's dark past.")
-                    print(f"As dawn approached, the vampires retreated to the shadows, leaving you with the choice to stay or continue your journey.")
-                    Print(f"Whatever your decision, {town_name}'s fate had been altered forever by your presence.")
+                        if 'unicorn' in story.lower():
 
+                            print("OK, you may leave this town.")
 
+                            third_town_coward()
+
+                            break
+
+                        else:
+
+                            print("Where is the unicorn? Start again.")
+
+                else:
+                    back_to_town()
 
             elif decision == "2":
-                print("you got up like a pu*** and leave with you horse")
-                third_town()
+                print(f"You ran like a coward to leave with your horse to the desert.")
+                third_town_coward()
             else:
-                back_to_town()
+                print(f"You ran like a coward to leave with your horse to the desert.")
+                third_town_coward()
+
 
 def third_town():
-            print("yay")
+        print(
+        f"After days of walking through the unforgiving desert, {you} and emily arrived in the small town of {town_name}.")
+        print(f"The scorching sun had taken its toll, but the promise of a new life in a peaceful town kept you going.\n")
+
+        print(f"{town_name} seemed charming at first glance, with its quaint buildings and welcoming atmosphere.")
+        print(f"But as you and emily settled in, you began to notice something was amiss.")
+        print(f"A band of unruly kids, led by a troublemaker named Jack, terrorized the town.\n")
+
+        print(f"Emily, who had lived in {town_name} before, told you stories of how the kids had taken over.")
+        print(f"They extorted money from the townspeople, destroyed property, and created an atmosphere of fear.")
+        print(f"Determined to put an end to this, you and emily decided to take matters into your own hands.\n")
+
+        print(f"Together, you devised a plan to confront the band of bad kids and restore peace to {town_name}.")
+        print(
+        f"You trained the townspeople in self-defense, and with their support, you prepared for the inevitable showdown.\n")
+
+        print(f"One evening, as the sun began to set, the showdown commenced.")
+        print(f"Jack and his gang confronted you and emily, taunting and challenging you to a fight.")
+        print(f"The air was tense, but your determination burned stronger than ever.\n")
+
+        print(f"The fight was fierce, fists and dust flying as you and emily stood your ground.")
+        print(f"The townspeople fought alongside you, refusing to be victims any longer.")
+        print(
+        f"Emily's quick thinking and your cowboy skills proved to be a formidable combination against the unruly gang.\n")
+
+        print(f"After a long and intense battle, the gang was defeated.")
+        print(f"Jack and his cronies retreated in defeat, leaving {town_name} for good.")
+        print(f"The townspeople cheered, grateful for your bravery and emily's determination.\n")
+
+        print(f"Emily's presence and your skills had saved {town_name} from the reign of the bad kids.")
+        print(f"The town once again flourished, and its people could finally enjoy the peace they deserved.")
+        print(f"You and emily were celebrated as heroes, and your bond grew stronger through the shared adventure.\n")
+
+        print(f"In {town_name}, you found a new home, a new purpose, and a partner in emily.")
+        print(f"The two of you became inseparable, ensuring that the town remained safe and prosperous.")
+        print(
+        f"And so, your journey through the desert led you to a new beginning and a life filled with adventure and love.")
+
+def third_town_coward():
+        print(
+        f"After days of walking through the unforgiving desert, {you} and your loyal horse finally arrived at {town_name}.")
+        print(f"The town looked empty, its buildings standing as if frozen in time.")
+        print(f"Feeling parched and exhausted, you decided to seek refuge in the local saloon.\n")
+
+        print(f"As you entered the saloon, an eerie silence greeted you. The air felt thick with an unnatural energy.")
+        print(f"You took a seat at the bar and ordered a drink, your eyes scanning the room for any signs of life.\n")
+
+        print(
+        "Suddenly, a strange, scintillating light engulfed the saloon. Before you could react, you felt a powerful force pulling you.")
+        print(
+        "The world around you blurred, and the sensation was disorienting. When the light faded, you found yourself in a strange room.\n")
+
+        print(
+        f"You looked around, trying to make sense of your surroundings. The room was filled with bizarre machinery and glowing screens.")
+        print(
+        f"A voice echoed from an intercom, 'Welcome, {you}. You've entered the Transdimensional Enigma, a machine of my creation.'")
+        print(f"Startled, you realized that the voice seemed to know your name.\n")
+
+        print("1. Demand to know who's responsible for this.")
+        print("2. Examine the machinery and try to understand the situation.")
+
+        decision = input("Enter your decision: ")
+
+        if decision == "1":
+            print("You shouted, 'Who's behind this? What do you want from me?'")
+            print(
+            "The intercom crackled, 'I am Dr. Stanislaus Braun, the inventor of this machine. I seek your help for a vital task.'")
+            print(
+            "He explained that the machine was designed to recruit individuals from different dimensions to perform specific tasks.")
+            print("You had been chosen because of your unique skills and attributes.")
+            print(
+            "Before you could react, a gloved hand reached out with a cloth soaked in chloroform. The sweet scent overwhelmed you, and you fell unconscious.\n")
+            tv_show()
+
+        elif decision == "2":
+            print("Intrigued by the machinery, you approached the glowing screens and intricate devices.")
+            print("As you examined them, you began to piece together that this was no ordinary technology.")
+            print("Suddenly, a holographic projection appeared before you, depicting the face of an elderly man.")
+            print("'Welcome, traveler. I am Dr. Stanislaus Braun, the creator of the Transdimensional Enigma.'")
+            print(
+            "He explained that the machine could traverse dimensions and that he needed your help for a crucial task.")
+            print(
+            "Before you could react, a gloved hand reached out with a cloth soaked in chloroform. The sweet scent overwhelmed you, and you fell unconscious.\n")
+            tv_show()
+
+        else:
+            print("Indecision left you frozen in place as the strange situation continued to unfold around you.")
+            print("The voice from the intercom grew impatient, 'Time is of the essence, make a choice.'")
+            print(
+            "Before you could react, a gloved hand reached out with a cloth soaked in chloroform. The sweet scent overwhelmed you, and you fell unconscious.\n")
+            tv_show()
 
 
 
 
+def vampire():
+    print(f"{you}, the lone vampire cowboy, arrived in the remote town of {town_name}.")
+    print(f"The air was thick with tension as evil Indian warriors, cursed with lycanthropy, terrorized the town.")
+    print(f"Determined to bring peace, you took it upon yourself to rid {town_name} of these monstrous foes.\n")
 
+    print(f"As night fell, you patrolled the streets, your vampire senses alert to danger.")
+    print(f"Amid the darkness, you met Howie, a skilled and loyal gunslinger, who shared your mission.")
+    print(
+        f"United by a common purpose, you formed an unlikely partnership to combat the dual threat of werewolf Indians.\n")
+
+    print(f"For weeks, you and Howie fought bravely, defending the town against the vicious attacks.")
+    print(f"Your vampire strength and Howie's sharpshooting skills made you a formidable team.")
+    print(f"The townspeople rallied behind you, inspired by your determination and resilience.\n")
+
+    print(f"One fateful night, as you and Howie were planning your next move, you overheard a conversation.")
+    print(f"Howie's voice carried a sinister tone as he spoke with one of the Indian leaders.")
+    print(f"Shocked and betrayed, you realized Howie was working with the very enemies you were fighting against.\n")
+
+    print(
+        f"Confronting Howie, you demanded the truth. He confessed that he had been feeding information to the werewolf Indians.")
+    print(
+        f"He revealed that they promised him power and riches in exchange for his assistance in weakening the town's defenses.")
+    print(
+        f"Enraged and heartbroken, you knew that you could no longer trust Howie, and the only way forward was through combat.\n")
+
+    print(f"A showdown ensued between you and Howie in the heart of {town_name}.")
+    print(f"The town's fate hung in the balance as you fought with all your strength and vampire abilities.")
+    print(f"Bullets and fangs clashed in a battle that symbolized the conflict between good and betrayal.\n")
+
+    print(f"Finally, as dawn approached, the fight came to a climactic end.")
+    print(
+        f"Howie, bloodied and defeated, lay before you. Both of you were exhausted, wounded by more than just physical blows.")
+    print(
+        f"As the first rays of sunlight broke through the horizon, Howie's betrayal would be a secret taken to his grave.\n")
+
+    print(f"The townspeople emerged from their hiding places, witnessing the aftermath of the battle.")
+    print(
+        f"You stood among them, a vampire cowboy who had faced down both supernatural enemies and the darkness within a friend.")
+    print(
+        f"{town_name} was saved, but the scars of the past would forever linger, a reminder of the sacrifices made for its survival.")
+    print(
+        f"Recognizing your courage and dedication, the townspeople offered you a new role – the sheriff of {town_name}.")
+    print(f"With your supernatural abilities, you vowed to protect the town from any threat that might come its way.")
+    print(f"And so, you became the enigmatic sheriff vampire of {town_name}, ensuring that its future would be safeguarded by your watchful eyes.")
+    print("The end")
 
 
 def main():
