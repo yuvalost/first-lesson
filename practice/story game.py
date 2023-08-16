@@ -346,10 +346,10 @@ def crazy_cowboy ():
                     abandoned_house()
 
                 elif decision == "3":
-                    print(f"you walk towrds the sound, it sounds like banging. you say to yourself: probably another fight in the gang\n ")
+                    print(f"you walk towards the sound, it sounds like banging. you say to yourself: probably another fight in the gang\n ")
                     print(f"you open the door from where the sound comes from and a flash shows up while green monsters show up,\n "
                           f"the say the want to take you to their mothership!!!")
-                    print("as much as you fight the want to abduct you!!!\n no bullets left you cant fight them and the are abduct you\n")
+                    print("as much as you fight the want to abduct you!!!\n no bullets left you cant fight them\n")
                     alien()
                 else:
                     crazy_cowboy()
@@ -364,7 +364,23 @@ def crazy_cowboy ():
             crazy_cowboy()
 
 
+def alien():
+    print("As the green monsters surround you, their technology immobilizes you. You struggle against their grasp,")
+    print(
+        "but their advanced tools render you powerless. With a blinding flash, you're transported onto their spaceship.\n")
 
+    print(
+        "Inside the spacecraft, you find yourself in a sterile chamber filled with pulsating lights and unfamiliar machinery.")
+    print("You're probed and examined by the aliens, who communicate in strange electronic chirps and clicks.")
+    print("Despite the language barrier, their intentions appear curious rather than malicious.\n")
+    print("After what feels like hours, you're brought before a serene and wise-looking alien elder.")
+    print("'We seek to understand your world,' the elder conveys in a soothing, echoing tone.'\n")
+    print("you passout and wake up with two hot women in your bed")
+    print("your notice that you feel werid ")
+    print("both girls say: We have learned much from you, As a token of gratitude, we shall return you to your home.")
+    print("With another flash of light, you find yourself back in the desert, the aliens gone.")
+    print("The memory of your abduction remains vivid, a testament to the uncharted frontiers of the cosmos.\n")
+    abandoned_house()
 
 
 
@@ -421,7 +437,7 @@ def shootout_aim():
                 print("The sound of a gunshot rings in your ears as a searing pain courses through your chess.")
                 print("You collapse to the ground, your vision fading as the townspeople's voices grow distant.")
                 print("Blaze stands above you laughing....as he start pissing on you\n")
-                print("you try to get up but you're to weak and the rest of the townpeople joins pissing on you\n")
+                print("you try to get up but you're to weak and full of urine and the rest of the townpeople joins pissing on you\n")
 
                 play_again = input("Do you want to play again? (yes/no): ")
                 if play_again.lower() == "no":
