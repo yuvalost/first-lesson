@@ -441,9 +441,11 @@ def shootout_aim():
                 print("you try to get up but you're to weak and full of urine and the rest of the townpeople joins pissing on you\n")
 
                 play_again = input("Do you want to play again? (yes/no): ")
-                if play_again.lower() == "no":
-                    print("Thanks for playing!")
+                if play_again.lower() == "yes":
+                    print("back to the start")
+                    intro()
                     break
+                    intro()
                 elif play_again.lower() != "yes":
                     print("Invalid input. Game over.")
                     break
@@ -576,29 +578,45 @@ def abandoned_house():
 
                 decision = input("Enter your decision: \n")
                 if decision == "1":
-                    import random
+                    print("i like you the devil says, above 10 to keep your soul but less.....")
+                    throw_dice()
 
-                    def throw_dice():
-                        return random.randint(1, 27)
-
-                    num_throws = 1  # Change this to the desired number of dice throws
-
-                    for _ in range(num_throws):
-                        result = throw_dice()
-                        print("Dice rolled:", result)
-
-                        if result > 10:
-                            print(f"the devil looks at you with so much anger\n and says: you have beat me at a dice, "
-                                  f"you get to take my horse...")
-                            print(f"{you} gets on the horse and rides to a new town")
-
-                            next_town()
                 elif decision == "2":
-                        print("the devil says: well now you have to play would you rather....for your soul...")
-                        bet_with_the_devil()
-
+                    print("the devil says: well now you have to play would you rather....for your soul...")
+                    bet_with_the_devil()
+                else:
+                    print("Invalid choice!")
+                    abandoned_house()
         else:
             print("Invalid choice!")
+        abandoned_house()
+
+def throw_dice():
+    import random
+    result = random.randint(1, 27)
+
+    print("Dice rolled:", result)
+
+    if result > 10:
+            print("The devil looks at you with anger and says: 'You get to keep your soul... now take my horse...'")
+            print(f"{you} gets on the horse and rides to a new town.")
+            new_town()
+
+    else:
+        print("Bobby B steals your soul and leaves you to walk the earth without a soul.")
+        print("Your soul entwined in a sinister pact, a heavy load.")
+        print("Under the moon's watchful eye, you met the devil's dark embrace,")
+        print("Trading your essence for power, a cold and calculated chase.")
+        print("Your shots rang true, a master of the wild terrain,")
+        print("Yet your laughter turned hollow, heartache and pain.")
+        print("Years passed, a shadowed figure with eyes of coal,")
+        print("At the crossroads once more, you reclaimed your stolen soul.")
+        print("Haunted but wiser, you rode into the sunset's embrace,")
+        print("A cowboy redeemed, scars etched in your weathered face.")
+        third_town_coward()
+
+
+
 
 def bet_with_the_devil ():
         print(f"never have i ever stole anyting? (y/n)")
@@ -610,15 +628,8 @@ def bet_with_the_devil ():
                   "a cold and calculated chase. His shots rang true, a master of the wild terrain, Yet his laughter turned hollow, heartache and pain. "
                   "Years passed, a shadowed figure with eyes of coal, At the crossroads once more, he reclaimed his stolen soul. "
                   "Haunted but wiser, he rode into the sunset's embrace, A cowboy redeemed, scars etched in his weathered face. \n")
-            print(f"1. try again")
-            print(f"2. just die")
+            third_town_coward()
 
-            decision = input("Enter the number of your decision: ")
-
-            if decision == "1":
-                intro()
-            else:
-                print("thanks for playing")
         if decision == "n":
             print(f"never have i ever had sex with a ''good personality'' ? (y/n)")
 
