@@ -1080,51 +1080,32 @@ def third_town_coward():
             "Before you could react, a gloved hand reached out with a cloth soaked in chloroform. The sweet scent overwhelmed you, and you fell unconscious.\n")
             tv_show()
 
-
-
-
 def vampire():
     print(f"{you}, the lone vampire cowboy, arrived in the remote town of {town_name}.")
     print(f"The air was thick with tension as evil Indian warriors, cursed with lycanthropy, terrorized the town.")
     print(f"Determined to bring peace, you took it upon yourself to rid {town_name} of these monstrous foes.\n")
-
     print(f"As night fell, you patrolled the streets, your vampire senses alert to danger.")
     print(f"Amid the darkness, you met Howie, a skilled and loyal gunslinger, who shared your mission.")
-    print(
-        f"United by a common purpose, you formed an unlikely partnership to combat the dual threat of werewolf Indians.\n")
-
+    print(f"United by a common purpose, you formed an unlikely partnership to combat the dual threat of werewolf Indians.\n")
     print(f"For weeks, you and Howie fought bravely, defending the town against the vicious attacks.")
     print(f"Your vampire strength and Howie's sharpshooting skills made you a formidable team.")
     print(f"The townspeople rallied behind you, inspired by your determination and resilience.\n")
-
     print(f"One fateful night, as you and Howie were planning your next move, you overheard a conversation.")
     print(f"Howie's voice carried a sinister tone as he spoke with one of the Indian leaders.")
     print(f"Shocked and betrayed, you realized Howie was working with the very enemies you were fighting against.\n")
-
-    print(
-        f"Confronting Howie, you demanded the truth. He confessed that he had been feeding information to the werewolf Indians.")
-    print(
-        f"He revealed that they promised him power and riches in exchange for his assistance in weakening the town's defenses.")
-    print(
-        f"Enraged and heartbroken, you knew that you could no longer trust Howie, and the only way forward was through combat.\n")
-
+    print(f"Confronting Howie, you demanded the truth. He confessed that he had been feeding information to the werewolf Indians.")
+    print(f"He revealed that they promised him power and riches in exchange for his assistance in weakening the town's defenses.")
+    print(f"Enraged and heartbroken, you knew that you could no longer trust Howie, and the only way forward was through combat.\n")
     print(f"A showdown ensued between you and Howie in the heart of {town_name}.")
     print(f"The town's fate hung in the balance as you fought with all your strength and vampire abilities.")
     print(f"Bullets and fangs clashed in a battle that symbolized the conflict between good and betrayal.\n")
-
     print(f"Finally, as dawn approached, the fight came to a climactic end.")
-    print(
-        f"Howie, bloodied and defeated, lay before you. Both of you were exhausted, wounded by more than just physical blows.")
-    print(
-        f"As the first rays of sunlight broke through the horizon, Howie's betrayal would be a secret taken to his grave.\n")
-
+    print(f"Howie, bloodied and defeated, lay before you. Both of you were exhausted, wounded by more than just physical blows.")
+    print(f"As the first rays of sunlight broke through the horizon, Howie's betrayal would be a secret taken to his grave.\n")
     print(f"The townspeople emerged from their hiding places, witnessing the aftermath of the battle.")
-    print(
-        f"You stood among them, a vampire cowboy who had faced down both supernatural enemies and the darkness within a friend.")
-    print(
-        f"{town_name} was saved, but the scars of the past would forever linger, a reminder of the sacrifices made for its survival.")
-    print(
-        f"Recognizing your courage and dedication, the townspeople offered you a new role – the sheriff of {town_name}.")
+    print(f"You stood among them, a vampire cowboy who had faced down both supernatural enemies and the darkness within a friend.")
+    print(f"{town_name} was saved, but the scars of the past would forever linger, a reminder of the sacrifices made for its survival.")
+    print(f"Recognizing your courage and dedication, the townspeople offered you a new role – the sheriff of {town_name}.")
     print(f"With your supernatural abilities, you vowed to protect the town from any threat that might come its way.")
     print(f"And so, you became the enigmatic sheriff vampire of {town_name}, ensuring that its future would be safeguarded by your watchful eyes.")
     print("The end")
