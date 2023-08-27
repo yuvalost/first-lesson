@@ -27,7 +27,3 @@
 
 # a, b, c, d = map(float, input("Enter 4 grades: ").split())
 #
-# print(max(a, b, c , d))
-numbers = int(input("enter number: "))
-
-print(numbers - 1 , numbers , numbers + 1, sep='<')

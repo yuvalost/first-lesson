@@ -24,7 +24,7 @@ def main():
                 print(f"Sorry, the correct number was {target_number}.")
 
             play_again = input("Do you want to play again? (yes/no): ")
-            if play_again.lower() == "no":
+            if play_again.lower() == "yes":
                 print("Thanks for playing!")
                 break
             elif play_again.lower() != "yes":
