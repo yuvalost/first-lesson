@@ -20,5 +20,32 @@ names_to_insert = ['andy', 'wanda', 'jim']
 users+= names_to_insert
 print(users)
 # q7 = Slice the users lists to return the 3rd and 4th items and assign the result to `center_users`
-slice_users = users[2:4]
-print(slice_users)
+center_users = users[2:4]
+
+print(center_users)
+
+# practice
+# practice 1#
+list_integers =  input("enter a list of numbers: ")
+
+numbers =[int(x) for x in list_integers.split()]
+
+print(sum(numbers)/ len(numbers))
+practice 2#
+
+numbers = list((map(int, input("enter a list of numbers: ").split())))
+if 777 in numbers:
+    print("True")
+else:
+    print("there isnt 777 in the list so false")
+
+# practice 3#
+
+A = ['100', '-50', '15', '85', '5', '20', '-5']
+
+print("sorted list: ", sorted(A))
+print("reversed sorted list: ", sorted(A, reverse=True))
+
+practice 4#
+a = list(map(int, input("please enter number here: ").split()))
+print(a[-3:])
