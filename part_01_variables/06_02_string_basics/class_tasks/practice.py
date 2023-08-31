@@ -21,6 +21,6 @@
 # numbers = list(map(int, input("please enter number: " ).split()))
 # print(float(sum(numbers) / len(numbers)))
 
-number_list = list(map(int, input("please enter number: " ).split()))
-print("777" in number_list)
+# number_list = list(map(int, input("please enter number: " ).split()))
+# print("777" in number_list)
 
