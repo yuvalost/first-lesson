@@ -31,7 +31,7 @@ list_integers =  input("enter a list of numbers: ")
 numbers =[int(x) for x in list_integers.split()]
 
 print(sum(numbers)/ len(numbers))
-practice 2#
+# practice 2#
 
 numbers = list((map(int, input("enter a list of numbers: ").split())))
 if 777 in numbers:
@@ -46,6 +46,6 @@ A = ['100', '-50', '15', '85', '5', '20', '-5']
 print("sorted list: ", sorted(A))
 print("reversed sorted list: ", sorted(A, reverse=True))
 
-practice 4#
+# practice 4#
 a = list(map(int, input("please enter number here: ").split()))
 print(a[-3:])
