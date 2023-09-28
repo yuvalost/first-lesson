@@ -6,3 +6,4 @@ print(next(v))
 print(next(v))
 print(next(v))
 # print(next(v))  # StopIteration
+

@@ -1,4 +1,4 @@
-this_string = "alexander"
+this_string = "yuval ostrowsky"
 v = iter(this_string)
 print(v)
 
