@@ -38,9 +38,6 @@
 #
 # for i in a:
 #     print(i)
-a = int(input("start= "))
-b = int(input("end= "))
-
-for i in range (a, b):
-    if (a % i) == 0:
-        print(i)
+a = {"a":"john", "b":"jim", "c":"jack"}
+for i, value in a.items():
+    print(value)
