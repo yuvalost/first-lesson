@@ -4,3 +4,8 @@ def who_are_you(name: str, age: int, role: str = "guest", experience: int = 1):
 
 who_are_you("Alex", 35, "admin", 5)
 who_are_you("Bekoni", 10000000)
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+# role = input("Enter your role: ")
+# experience = int(input("Enter your experience: "))
+# who_are_you(name, age, role, experience)

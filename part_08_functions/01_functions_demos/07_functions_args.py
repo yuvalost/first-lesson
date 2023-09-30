@@ -14,4 +14,5 @@ def iterate_languages(*languages):
 
 
 my_function("Python", "TypeScript", "Java")
+my_function("Python", "TypeScript")
 iterate_languages("Python", "TypeScript", "Java", "GO", "PHP")
