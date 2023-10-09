@@ -10,3 +10,8 @@ new_array = list(map(lambda x: x ** 3, original_array))
 
 print(original_array)
 print(new_array)
+
+crazy = list(map(lambda x: x + 10, original_array))
+
+print(original_array)
+print(crazy)

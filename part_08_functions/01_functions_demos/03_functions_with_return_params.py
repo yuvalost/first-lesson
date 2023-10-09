@@ -1,14 +1,14 @@
 def say_hello(name: str):
     print(f"Hello {name}!")
 
-
 def calculate_sum(number_1: int, number_2: int):
     return number_1 + number_2
+print("-"*100)
 
 
 say_hello("Alex")
 print(calculate_sum(5, 10))
-
+print("-"*100)
 result = calculate_sum(20, 30)
 print("result", result)
 
