@@ -4,7 +4,7 @@ import  time
 math_symbols = ["+", "-", "*"]
 max_numbers = 12
 min_numbers = 1
-total_problems = 2
+total_problems = 10
 
 def generate_problem():
     left = random.randint(min_numbers, max_numbers)
@@ -16,7 +16,7 @@ def generate_problem():
     return equation_formation, answer
 def play_game():
     wrong = 0
-    input("press enter or any key (i dont care..)")
+    input("Let's start! press enter or any key (i dont care..)")
     print("-" * 100)
 
     start_time = time.time()
