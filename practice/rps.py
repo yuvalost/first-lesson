@@ -35,10 +35,10 @@ while True:
         print(f"3...2...1....i choose rock....damm i lost.... lets go again {name}")
 
     elif value == 2 and user_hand == 3:
-        print(f"3...2...1....i choose scissors....hell yeah i win that means you lost!!! lets go again {name}")
+        print(f"3...2...1....i choose scissors....hell yeah!!! i win, that means you lost!!! lets go again {name}")
 
     elif value == 3 and user_hand == 3:
-        print(f"3...2...1....i choose paper....so did you it's a Tie!! lets go again {name}")
+        print(f"3...2...1....i choose paper....so did you, it's a Tie!! lets go again {name}")
 
 
     play_again = input("Want to try again?y/n   ")
