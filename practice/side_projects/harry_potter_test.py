@@ -11,7 +11,7 @@ house_scores = {'Gryffindor': 0, 'Ravenclaw': 0, 'Hufflepuff': 0, 'Slytherin': 0
 
 
 questions = [
-    "What is your approach to facing danger? "
+    "\nWhat is your approach to facing danger? "
     
     "a) I confront it head-on.\n"
     "b) I analyze the situation carefully.\n"
@@ -83,7 +83,7 @@ def ask_question(question):
 
 while True:
     name = input("please enter your name: ")
-    print(f"Welcome {name} to the Hogwarts House Sorting Quiz!")
+    print(f"Welcome {name} to the Hogwarts House Sorting Quiz!\n")
     print("Answer the following questions to discover which Hogwarts house you belong to.")
     for question in questions:
         ask_question(question)
