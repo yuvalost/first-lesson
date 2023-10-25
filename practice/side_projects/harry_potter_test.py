@@ -1,4 +1,4 @@
-# Define the points associated with each answer choice for each house.
+
 answer_points = {
     'a': {'Gryffindor': 3, 'Ravenclaw': 1, 'Hufflepuff': 2, 'Slytherin': 1},
     'b': {'Gryffindor': 1, 'Ravenclaw': 3, 'Hufflepuff': 2, 'Slytherin': 1},
@@ -6,10 +6,10 @@ answer_points = {
     'd': {'Gryffindor': 1, 'Ravenclaw': 1, 'Hufflepuff': 1, 'Slytherin': 3}
 }
 
-# Initialize house scores.
+
 house_scores = {'Gryffindor': 0, 'Ravenclaw': 0, 'Hufflepuff': 0, 'Slytherin': 0}
 
-# List of questions. You can add more questions as needed.
+
 questions = [
     "1. What is your approach to facing danger? "
     
@@ -77,29 +77,40 @@ questions = [
 
 ]
 
-# Function to ask questions and update house scores.
+
 def ask_question(question):
     print(question)
     answer = input(f"{name} choose your answer (a, b, c, or d): ").lower()
     for house in house_scores:
         house_scores[house] += answer_points[answer][house]
 
-# Opening statement.
+
 name = input("please enter your name: ")
 print(f"Welcome {name} to the Hogwarts House Sorting Quiz!")
 print("Answer the following questions to discover which Hogwarts house you belong to.")
 
-# Ask all the questions.
-for question in questions:
-    ask_question(question)
+while True:
+    for question in questions:
+        ask_question(question)
 
-# Determine the winning house with the highest score.
-winning_house = max(house_scores, key=house_scores.get)
 
-# Display the result to the player.
-if name == "arik".lower():
-    print(f"{name} belong's to whore house!)
-else:
-    print(f"{name} belong's to {winning_house}!")
+    winning_house = max(house_scores, key=house_scores.get)
 
-# You can also add a brief description of the chosen house here.
+
+    if name == "arik".lower():
+        print(f"{name} belong's to whore house!")
+    else:
+        print(f"{name} belong's to {winning_house}!")
+
+    play_again = input("again?y/n:  ")
+    if play_again != "y".lower():
+        print("ok loser...")
+        break
+
+    else:
+     house_scores = {'Gryffindor': 0, 'Ravenclaw': 0, 'Hufflepuff': 0, 'Slytherin': 0}
+
+
+
+
+
