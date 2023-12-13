@@ -61,11 +61,15 @@ str_json = """
 print(type(str_json))
 
 data = json.loads(str_json)
+data2 = json.dumps(str_json)
 
 print(type(data))
 print(data["per_page"])
 print(type(data["per_page"]))
 print(data["total"])
 print(type(data["data"]))
+# print(data["email"])
 # for item in data["data"]:
 #     print(item)
+print(data2)
+print(data["data"])
