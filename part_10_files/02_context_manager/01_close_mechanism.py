@@ -10,5 +10,5 @@ for i in range(100000):
     with open("passwords.txt", "w") as file:
         my_list.append(file)
 
-print("end")
+print("happy")
 print(file)
