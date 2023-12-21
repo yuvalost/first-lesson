@@ -1,0 +1,40 @@
+class Human:
+    def __init__(self,health: int, attack:int):
+        self.health = health
+        self.base_attack = attack
+    def preform_attack(self):
+        print("Attacking! yalla")
+
+    def upgrade(self):
+        self.health +=100
+        print(f"upgrading to {self.health}")
+
+# human_class = Human(230, 130)
+class Warrior(Human):
+    def __init__(self,health:int, attack:int, defence:int):
+        super().__init__(health,attack)
+        self.defence_stat = defence
+    def preform_defence(self):
+        print("hold your ground")
+
+class Barbarian(Human):
+    def __init__(self,health:int, attack:int, defence:int, damage: int):
+        super().__init__(health, attack)
+        self.damage_stat = damage
+        self.defence_stat = defence
+    def preform_damage(self):
+        print("Ouch...that really hurt!")
+
+human = Human(230, 150)
+warrior = Warrior(230, 200,25.9)
+barbarian = Barbarian(100, 230,100,230)
+
+human_attack = print(f"human will attack")
+warrior_attack = "Warrior will attack"
+barbarian_attack = "Barbarian will attack"
+
+human.preform_attack()
+warrior.preform_attack()
+barbarian.preform_attack()
+warrior.upgrade()
+barbarian.upgrade()
