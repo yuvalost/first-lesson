@@ -14,7 +14,10 @@ dp = Dispatcher()
 
 @dp.message()
 async def answer_as_echo(message: types.Message):
-    await message.answer(text=message.text)
+    try:
+        await message.send_copy(chat_id=message.chat.id)
+    except Exception:
+        await message.answer("Unsupported media type...")
 
 
 @dp.message()

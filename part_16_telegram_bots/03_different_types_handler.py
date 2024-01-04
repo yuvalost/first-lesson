@@ -14,7 +14,13 @@ dp = Dispatcher()
 
 @dp.message()
 async def answer_as_echo(message: types.Message):
-    await message.answer(text=message.text)
+    if message.text:
+        await message.answer(text=message.text)
+    elif message.sticker:
+        await message.answer("Sticker was used...")
+        await message.reply_sticker(sticker=message.sticker.file_id)
+    else:
+        await message.reply("A new media type was used!!! ")
 
 
 @dp.message()
