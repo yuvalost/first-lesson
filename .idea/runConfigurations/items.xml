@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="items" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-    <module name="pythonProject4" />
+    <module name="INT_Devops_Course_yuvalo" />
+    <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
