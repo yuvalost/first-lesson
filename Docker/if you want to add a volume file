@@ -1,0 +1,15 @@
+FROM node:14
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN npm install
+
+Copy . .
+
+Expose 80
+
+Volume ["/app/feedback"] #name volume so you can save within the container
+
+CMD ["node","server.js"]

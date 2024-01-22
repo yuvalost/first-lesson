@@ -1,0 +1,9 @@
+#step 1:
+docker build -t myfeedback-app:volumes .
+#if needed step 1.5:
+docker run -d -p 80:80 --rm --name feedback-app myfeedback-app:volumes
+
+#step 2:
+docker run -d -p 80:80 --rm --name feedback-app -v feedback:/app/feedback -v C:\Users\yuval\P
+ycharmProjects\first-lesson\Docker\feedback_app:/app   myfeedback-app:volumes
+
