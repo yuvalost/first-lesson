@@ -10,6 +10,6 @@ Copy . .
 
 Expose 80
 
-Volume ["/app/feedback"]
+Volume ["/app/feedback"] #name volume so you can save within the container
 
 CMD ["node","server.js"]
