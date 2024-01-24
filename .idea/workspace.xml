@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0158ce-da48-4144-9e11-9cb708d6de02" name="Changes" comment="22.1 docker practice 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/feedback_app" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/feedback_app" afterDir="false" />
-    </list>
+    <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;" />
+    <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2bIlz5hvJmrsePitZr9F2jyZwUP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,13 +39,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yuval\PycharmProjects\Docker\first-lesson" />
       <recent name="C:\Users\yuval\PycharmProjects\first-lesson\Docker" />
     </key>
   </component>
@@ -96,15 +95,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705926228349</updated>
     </task>
-    <task id="LOCAL-00005" summary="22.1 docker practice 1">
-      <option name="closed" value="true" />
-      <created>1705927916113</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705927916113</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
