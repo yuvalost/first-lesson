@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;" />
+    <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/goal-compose-app" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +41,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,7 +60,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc0158ce-da48-4144-9e11-9cb708d6de02" name="Changes" comment="" />
+      <changelist id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;" />
       <created>1705910732475</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
