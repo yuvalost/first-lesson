@@ -7,7 +7,7 @@
     <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/feedback_app" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/feedback_app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-wars-api" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" afterDir="false" />
     </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706084718789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1707652263546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707652263547</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
