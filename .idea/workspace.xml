@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;" />
+    <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,12 +99,29 @@
       <option name="project" value="LOCAL" />
       <updated>1705926228349</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708358527800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708358527800</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708358573866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708358573866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.1 docker practice" />
     <MESSAGE value="22.1 docker practice 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.1 docker practice 1" />
+    <MESSAGE value="&quot;after lesson 8.31&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;after lesson 8.31&quot;" />
   </component>
 </project>
