@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/feedback_app" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/feedback_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" afterDir="false" />
     </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
@@ -48,12 +46,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/yuval/PycharmProjects/first-lesson/yuvals_personal_projects/practice",
+    "last_opened_file_path": "C:/Users/yuval/PycharmProjects/first-lesson/Docker/old_games_docker",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\first-lesson\Docker\old_games_docker" />
       <recent name="C:\Users\yuval\PycharmProjects\first-lesson\Docker\emulator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -165,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708424660926</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708514239821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708514239821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
