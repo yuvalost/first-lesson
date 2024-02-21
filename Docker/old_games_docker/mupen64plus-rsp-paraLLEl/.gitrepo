@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:libretro/parallel-rsp.git
+	branch = master
+	commit = 5b0f81bd08ad6bca177e2713237697b04282dbe4
+	parent = 4892ef6fb9d5a00e7e602977202a228dbe7f92b9
+	method = rebase
+	cmdver = 0.4.6

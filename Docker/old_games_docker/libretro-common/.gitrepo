@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/libretro-fork/libretro-common-mupen64plus-nx.git
+	branch = master
+	commit = b524671aab017c027e8ae7d98711a9a53ad189fb
+	parent = d908986871908e19f426bc6779fd5dc43006fd75
+	method = rebase
+	cmdver = 0.4.6
