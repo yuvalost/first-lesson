@@ -1,8 +1,12 @@
 import random
 
 title = input("please write a punch-line: ")
+
+
+# Define lists of setup and punchline for dad jokes
 def generate_dad_joke():
     # Define lists of setup and punchline for dad jokes
+    # List of setup lines for dad jokes
     joke_setups = [
         "Why did the scarecrow win an award?",
         "Did you hear about the mathematician who's afraid of negative numbers?",
@@ -54,10 +58,11 @@ def generate_dad_joke():
         "Why don't eggs tell each other secrets?",
         "How does a penguin build its house?",
         "What did one wall say to the other wall?",
-        # Add more setups as needed
+
     ]
 
     joke_punchlines = [
+        # List of punchlines for dad jokes
         "Because he was outstanding in his field!",
         "He'll stop at nothing to avoid them!",
         "Igloos it together!",
@@ -118,19 +123,21 @@ def generate_dad_joke():
 
 
     setup = random.choice(joke_setups)
+    # Choose a random setup line
     punchline = random.choice(joke_punchlines)
-
+    # Choose a random punchline
 
     dad_joke = f"{setup}  {title}"
 
     return dad_joke
 
-
+# Generate and print two random dad jokes
 for _ in range(2):
     print(generate_dad_joke())
+    # Generate and print a random dad joke until the user decides to stop
 while True:
     print(generate_dad_joke())
     try_again = input("again y/n: " )
-
+    # If the user doesn't want to try again, exit the loop
     if try_again != "y":
         break

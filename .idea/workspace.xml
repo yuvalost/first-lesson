@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee10ea94-2970-4b48-8c6e-c6970971993d" name="Changes" comment="&quot;after lesson 8.31&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/feedback_app" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/feedback_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/story game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/story game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/01_practices.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/01_practices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/02_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/02_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/basic_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/basic_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/class_hw_31-7.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/class_hw_31-7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/class_work_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/class_work_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/data_to_load.json" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/data_to_load.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/dumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/dumpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/flet_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/flet_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/hw_6.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/hw_6.9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/jason.json" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/jason.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/list_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/list_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/repot.jason" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/repot.jason" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/couples_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/couples_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dad_jokes.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dad_jokes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice throw.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice throw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice_roll.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice_roll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/guessing game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/guessing game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/harry_potter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/harry_potter_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/math_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/math_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/tik_tak_toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/tik_tak_toe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/sql_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/sql_practice.py" afterDir="false" />
     </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +65,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.bad_version_story_game.executor": "Run",
+    "Python.story game.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/yuval/PycharmProjects/first-lesson/Docker/emulator",
+    "last_opened_file_path": "C:/Users/yuval/PycharmProjects/first-lesson/yuvals_personal_projects/practice",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -141,7 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708422696533</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708424551965</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708424551965</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708424593962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708424593962</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;after lesson 8.31&quot;">
+      <option name="closed" value="true" />
+      <created>1708424660926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708424660926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

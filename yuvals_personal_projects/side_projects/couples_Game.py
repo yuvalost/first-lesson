@@ -1,101 +1,60 @@
-
-
-results = {'a': {'Rachel': 3, 'yosi habolbol': 1, 'shir': 2, 'anna': 1},
-           'b': {'Rachel': 4, 'yosi habolbol': 2, 'shir': 3, 'anna': 2},
-           'c': {'Rachel': 1, 'yosi habolbol': 3, 'shir': 4, 'anna': 3},
-           'd': {'Rachel': 2, 'yosi habolbol': 4, 'shir': 1, 'anna': 4},
+# Initialization
+results = {'a': {'Rachel': 3, 'yosi habolbol': 1, 'shir': 2, 'anna': 1},  # Scores for each girl based on option 'a'
+           'b': {'Rachel': 4, 'yosi habolbol': 2, 'shir': 3, 'anna': 2},  # Scores for each girl based on option 'b'
+           'c': {'Rachel': 1, 'yosi habolbol': 3, 'shir': 4, 'anna': 3},  # Scores for each girl based on option 'c'
+           'd': {'Rachel': 2, 'yosi habolbol': 4, 'shir': 1, 'anna': 4},  # Scores for each girl based on option 'd'
 }
 
-girl_score = {'Rachel': 0, 'yosi habolbol': 0, 'shir': 0, 'anna': 0}
+girl_score = {'Rachel': 0, 'yosi habolbol': 0, 'shir': 0, 'anna': 0}  # Initialize scores for each girl to zero
 
 questions = [
-
-"What's your ideal date night?\n"
-"a) A fancy dinner at a romantic restaurant\n"
-"b) Netflix and pizza at home\n"
-"c) A fun outdoor adventure\n"
-"d) sex\n",
-
-"What's your communication style?\n"
-"a) I love deep, meaningful conversations\n"
-"b) I prefer light-hearted and humorous chats\n"
-"c) I'm a great listener and observer\n"
-"d) sex\n",
-
-"How do you handle conflict in a relationship?\n"
-"a) Confront it head-on and communicate openly\n"
-"b) Avoid confrontation and hope it resolves itself\n"
-"c) Find a compromise and keep the peace\n"
-"d) sex\n",
-
-"What's your ideal vacation destination?\n"
-"a) A bustling city with cultural attractions\n"
-"b) A quiet beach with a good book\n"
-"c) A remote cabin in the mountains\n"
-"d) sex\n",
-
-"What's your stance on having children?\n"
-"a) I definitely want kids someday\n"
-"b) I'm not sure if I want children\n"
-"c) I prefer not to have children\n"
-"d) sex\n",
-
-"What's your attitude towards personal space and independence?\n"
-"a) I need a lot of personal space and independence\n"
-"b) I enjoy spending time together but also need me-time\n"
-"c) I'm happiest when we do everything together\n"
-"d) sex\n",
-
-"What role does humor play in your life?\n"
-"a) I appreciate a partner who can make me laugh\n"
-"b) I value a good sense of humor but it's not essential\n"
-"c) Humor is not a priority for me in a partner\n"
-"d) sex\n",
-
-"What's your approach to handling finances in a relationship?\n"
-"a) Joint finances and shared responsibility\n"
-"b) Keeping some financial independence\n"
-"c) Separate finances and bills\n"
-"d) sex\n",
-
+    # List of quiz questions with answer options
 ]
 
+# Function Definition
 def ask_question(question):
+    """Function to ask a question, take user input, and update girl scores."""
     print(question)
     answer = input(f"{name} choose your answer (a, b, c, or d): ").lower()
+    # Update scores for each girl based on the user's answer
     for i in girl_score:
         girl_score[i] += results[answer][i]
 
-
-
+# Main Loop
 while True:
+    # Ask user for their name
     name = input("please enter your name: ").lower()
+    # Welcome message
     print(f"Welcome {name} to the....what girl is for me Quiz!\n")
     print("lets show the girls.... .")
+    # Description of each girl
     print("Rachel: An adventurous and outgoing outdoor enthusiast with a great sense of humor.\n")
     print("Anna: A thoughtful and artistic bookworm who enjoys quiet evenings at home.\n")
     print("Tamar: A career-focused and health-conscious traveler with a strong sense of ambition.\n")
     print("Shir: A free-spirited musician with a love for the arts and a bohemian style.\n")
+    # Loop through each question and ask the user
     for question in questions:
         ask_question(question)
 
-
+    # Determine the girl with the highest score
     winning_girl = max(girl_score, key=girl_score.get)
 
-
+    # Special messages for certain names
     if name == "arik":
         print(f"{name} this isn't for you because you needs a man! \n")
     if name == "shlomi":
         print(f"{name} belong's to.....yosi habolbol \n")
+    # Inform the user about their match
     elif winning_girl == 'yosi habolbol':
         print(f"{name} belong's to..... {winning_girl}! \n")
     else:
         print(f"{name} belong's to the girl named.... {winning_girl}!\n")
 
+    # Ask if the user wants to play again
     play_again = input("again?y/n:  \n")
     if play_again != "y".lower():
         print("ok loser...")
         break
-
     else:
-     girl_score = {'Rachel': 0, 'yosi habolbol': 0, 'shir': 0, 'anna': 0}
+        # Reinitialize scores for each girl to zero for the next round
+        girl_score = {'Rachel': 0, 'yosi habolbol': 0, 'shir': 0, 'anna': 0}
