@@ -8,28 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/feedback_app" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/feedback_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" beforeDir="false" afterPath="$PROJECT_DIR$/Docker/starwar2/star-wars-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/01_practices.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/01_practices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/02_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/02_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/basic_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/basic_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/class_hw_31-7.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/class_hw_31-7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/class_work_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/class_work_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/data_to_load.json" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/data_to_load.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/dumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/dumpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/flet_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/flet_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/hw_6.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/hw_6.9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/jason.json" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/jason.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/list_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/list_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/repot.jason" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/repot.jason" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/couples_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/couples_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dad_jokes.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dad_jokes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice throw.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice throw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice_roll.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/dice_roll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/guessing game.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/guessing game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/harry_potter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/harry_potter_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/math_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/math_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/tik_tak_toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/side_projects/tik_tak_toe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuvals_personal_projects/sql_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuvals_personal_projects/practice/sql_practice.py" afterDir="false" />
     </list>
     <list id="1dff249a-4a1b-4452-bbaf-7c7249da82c6" name="01_variables_basics.py" comment="&quot;revert&quot;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +57,7 @@
       <recent name="C:\Users\yuval\PycharmProjects\first-lesson\Docker\emulator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\first-lesson\yuvals_personal_projects\practice" />
       <recent name="C:\Users\yuval\PycharmProjects\first-lesson\Docker" />
     </key>
   </component>
